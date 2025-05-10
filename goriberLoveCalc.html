@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Love Calculator</h1>
+
+    <script>
+        let person1=prompt("What is your name ?");
+        let person2=prompt("What is your partner name?");
+    
+
+    function calculateLove(){
+        let result = Math.ceil(Math.random() * 100);
+        if(result > 80){
+            alert('Turu love and your love score is '+result);
+        }else{
+            alert('Geche already and love score is '+result);
+        }
+    }
+    
+    calculateLove();
+    </script>
+</body>
+</html>

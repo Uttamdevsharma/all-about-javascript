@@ -140,17 +140,46 @@
 
 
 
-// Constructor Function
+// This keyword
 //  {}-object create = (new)ekta keyword, mane ekta object nicchi
-function CreatePerson(name,age,interest){
-    (this.name = name),
-    (this.age = age),
-    (this.interest = interest);
+// function CreatePerson(name,age,interest){
+//     (this.name = name),
+//     (this.age = age),
+//     (this.interest = interest);
 
-}
+// }
 
-let person1 = new CreatePerson('uttam',25,['js','php']);
-console.log(person1);
+// let person1 = new CreatePerson('uttam',25,['js','php']);
+// console.log(person1);
+
+
+
+
+// Constructor Function
+
+// class CreatePerson{
+//     constructor(name,age,interest){
+//         this.name = name;
+//         this.age = age;
+//         this.interest = interest;
+
+//     }
+
+//     sayHello(){
+//         console.log("Hello " , this.name);
+//     }
+
+// }
+
+// let person1 = new CreatePerson('uttam',25,['js','php']);
+
+// person1.sayHello();
+
+
+
+
+
+
 
 
 
@@ -172,3 +201,15 @@ console.log(person1);
 //   console.log(index + 1 + ". " + fruit);
 // });
 
+
+
+
+// IIFE - immidaiately invoked function expression
+// setinterval, settimeout
+((name) =>{
+    console.log("Hello ",name);
+}) ('uttam');
+
+setInterval(function(){
+    console.log("hello world");
+},1000);
