@@ -81,33 +81,77 @@
 //  Functions = global object(nodejs and browser o ache)
 // method/object = parent object
 // javascript run korbo windows and nodejs e . jokhon browser r run kori global object reFer korbe window ke ar node js e korle global object ache
-let person = {
-    name : 'Uttamdev',
-    addr : {
-        city : 'Dhaka',
-        zip : 1800,
-    },
-    Interst : ['js','PHP','Python'],
-    sayHello() {
-        console.log('Hello :' , this.name);
-    },
-    printinterest(){
-        this.Interst.forEach((el)=>{
-            console.log(this.name + ' Loves ' + el);
-        });
-    },
+// let person = {
+//     name : 'Uttamdev',
+//     addr : {
+//         city : 'Dhaka',
+//         zip : 1800,
+//     },
+//     Interst : ['js','PHP','Python'],
+//     sayHello() {
+//         console.log('Hello :' , this.name);
+//     },
+//     printinterest(){
+//         this.Interst.forEach((el)=>{
+//             console.log(this.name + ' Loves ' + el);
+//         });
+//     },
 
-};
-person.printinterest();
+// };
+// person.printinterest();
+
+
+
 
 
 
 // Arrow Function 
-let sayHello = (name) => 5;
-console.log(sayHello());
+// let sayHello = (name) => 5;
+// console.log(sayHello());
 
-const add = (a, b) => a + b;
-console.log(add(2,3));
+// const add = (a, b) => a + b;
+// console.log(add(2,3));
+
+
+
+
+
+//Factory function
+
+// function createPerson(name,addr,interest){
+//     return {
+//         name,
+//         addr ,
+//         interest ,
+//         sayHello(){
+//             console.log("Hello Uttam");
+//         },
+//     };
+// }
+
+// let person1=createPerson('uttam','dinajput',['read','cricket']);
+
+
+// let person2 = createPerson('akash','pabna',['love','song']);
+// person2.roll = 32;
+
+// console.log(person2);
+
+
+
+
+// Constructor Function
+//  {}-object create = (new)ekta keyword, mane ekta object nicchi
+function CreatePerson(name,age,interest){
+    (this.name = name),
+    (this.age = age),
+    (this.interest = interest);
+
+}
+
+let person1 = new CreatePerson('uttam',25,['js','php']);
+console.log(person1);
+
 
 
 
