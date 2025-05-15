@@ -81,24 +81,28 @@
 //  Functions = global object(nodejs and browser o ache)
 // method/object = parent object
 // javascript run korbo windows and nodejs e . jokhon browser r run kori global object reFer korbe window ke ar node js e korle global object ache
-// let person = {
-//     name : 'Uttamdev',
-//     addr : {
-//         city : 'Dhaka',
-//         zip : 1800,
-//     },
-//     Interst : ['js','PHP','Python'],
-//     sayHello() {
-//         console.log('Hello :' , this.name);
-//     },
-//     printinterest(){
-//         this.Interst.forEach((el)=>{
-//             console.log(this.name + ' Loves ' + el);
-//         });
-//     },
+let person = {
+    name : 'Uttamdev',
+    addr : {
+        city : 'Dhaka',
+        zip : 1800,
+    },
+    Interst : ['js','PHP','Python'],
+    sayHello() {
+        console.log('Hello :' , this.name);
+    },
+    printinterest(){
+        this.Interst.forEach((el)=>{
+            console.log(this.name + ' Loves ' + el);
+        });
+    },
 
-// };
-// person.printinterest();
+};
+person.printinterest();
+
+
+
+
 
 
 
@@ -206,10 +210,10 @@
 
 // IIFE - immidaiately invoked function expression
 // setinterval, settimeout
-((name) =>{
-    console.log("Hello ",name);
-}) ('uttam');
+// ((name) =>{
+//     console.log("Hello ",name);
+// }) ('uttam');
 
-setInterval(function(){
-    console.log("hello world");
-},1000);
+// setInterval(function(){
+//     console.log("hello world");
+// },1000);
