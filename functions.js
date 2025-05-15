@@ -81,35 +81,29 @@
 //  Functions = global object(nodejs and browser o ache)
 // method/object = parent object
 // javascript run korbo windows and nodejs e . jokhon browser r run kori global object reFer korbe window ke ar node js e korle global object ache
-let person = {
-    name : 'Uttamdev',
-    addr : {
-        city : 'Dhaka',
-        zip : 1800,
-    },
-    Interst : ['js','PHP','Python'],
-    sayHello() {
-        console.log('Hello :' , this.name);
-    },
-    printinterest(){
-        this.Interst.forEach((el)=>{
-            console.log(this.name + ' Loves ' + el);
-        });
-    },
+// let person = {
+//     name : 'Uttamdev',
+//     addr : {
+//         city : 'Dhaka',
+//         zip : 1800,
+//     },
+//     Interst : ['js','PHP','Python'],
+//     sayHello() {
+//         console.log('Hello :' , this.name);
+//     },
+//     printinterest(){
+//         this.Interst.forEach((el)=>{
+//             console.log(this.name + ' Loves ' + el);
+//         });
+//     },
 
-};
-person.printinterest();
-
-
+// };
+// person.printinterest();
 
 
 
 
-
-
-
-
-// Arrow Function 
+// Arrow Function
 // let sayHello = (name) => 5;
 // console.log(sayHello());
 
@@ -217,3 +211,11 @@ person.printinterest();
 // setInterval(function(){
 //     console.log("hello world");
 // },1000);
+
+// setInterval((name) => {
+//     console.log("Hello Uttam");
+// }, 1000);
+
+// setTimeout((msg)=>{
+//     console.log("Hello Riddi");
+// },3000);
