@@ -8,9 +8,6 @@
 
 
 
-
-
-
 // Object create and access 
 // let person = {
 //     name : 'Uttam dev',
