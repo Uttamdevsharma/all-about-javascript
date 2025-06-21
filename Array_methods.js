@@ -59,12 +59,15 @@ let users = [
 
 
 // jara male tader object nibo using filter
-// let maleObj = users.filter((el) => el.gender == "male");
+// let maleObj = users.filter((el) => {
+//     return el.gender == "male";
+
+// });
 // console.log(maleObj);
 
 
 // using every/some - red color sobar ache kina
-// let redAll = users.some((el) => el.color == "red");
+// let redAll = users.every((el) => el.color == "red");
 // console.log(redAll);
 
 
@@ -95,14 +98,22 @@ let users = [
 // console.log(isEven);
 
 
-let num1 = [3,5,1,667,23,2345,76,89];
+// let num1 = [3,5,1,667,23,2345,76,89];
 
-num1.sort(function(a,b){
-    return a - b;
-});
-console.log(num1);
+// num1.sort(function(a,b){
+//     return a - b;
+// });
+// console.log(num1);
 
 
 // zero -> jevabe acho sevabei bosho
 // negative -> a ager boshe b pore
 // positive -> b age boshe a pore
+
+
+
+
+
+
+
+
