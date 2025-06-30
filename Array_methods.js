@@ -67,6 +67,7 @@ let users = [
 
 
 // using every/some - red color sobar ache kina
+
 // let redAll = users.every((el) => el.color == "red");
 // console.log(redAll);
 
