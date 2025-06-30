@@ -1,0 +1,1 @@
+{"name":"Local: pro","url":"e:\\Mern Stack\\Javascript Fundamental\\all-about-javascript\\pro.cpp","tests":[{"id":1750862742738,"input":"4\n9 3 4 2\n100 100 28 39\n3 10 4 10\n5 90 35 6","output":"3\n0\n20\n11"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Mern Stack\\Javascript Fundamental\\all-about-javascript\\pro.cpp","group":"local","local":true}
