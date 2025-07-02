@@ -103,10 +103,12 @@
 // setinterval, settimeout
 // ((name) =>{
 //     console.log("Hello ",name);
+
 // }) ('uttam');
 
 
 // setInterval(function(){
+
 //     console.log("hello world");
 // },1000);
 
