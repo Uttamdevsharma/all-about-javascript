@@ -72,7 +72,6 @@
 // console.log(...arr);
 
 
-
 //This keyword
 
 //  Functions = global object(nodejs and browser o ache)
